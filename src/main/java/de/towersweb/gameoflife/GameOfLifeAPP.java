@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class GameOfLifeAPP extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
 
         PetriPlate petriPlate = new PetriPlate();
 
